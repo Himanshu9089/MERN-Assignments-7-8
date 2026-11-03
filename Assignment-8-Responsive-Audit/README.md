@@ -1,37 +1,39 @@
-# Assignment 7 – Grid Practice
+# Assignment 8 – Responsive Audit
 
-## Description
-This assignment contains three simple web pages created using HTML5 and CSS Grid.
+## Project Overview
+This assignment focuses on making the existing Grid Practice Pack responsive for desktop, tablet, and mobile devices using CSS media queries.
 
 ## Pages Included
-1. gallery.html – A photo gallery containing at least 9 images.
-2. product-grid.html – A responsive product grid using auto-fit and minmax().
-3. dashboard.html – A student dashboard using named CSS Grid areas.
+1. **Gallery Page** – Responsive image gallery.
+2. **Product Grid Page** – Responsive product grid.
+3. **Dashboard Page** – Responsive header, sidebar, main content, and footer.
+
+## Responsive Breakpoints
+- Desktop: Above 768px
+- Tablet: 768px and below
+- Mobile: 480px and below
+
+## Responsive Improvements
+- Adjusted grid columns for different screen sizes.
+- Made images responsive.
+- Improved navigation wrapping.
+- Adjusted spacing and padding for mobile screens.
+- Prevented horizontal overflow.
 
 ## Technologies Used
 - HTML5
 - CSS3
 - CSS Grid
+- CSS Media Queries
+- Responsive Web Design
 
-## CSS Grid Concepts Used
-- display: grid
-- grid-template-columns
-- grid-template-areas
-- grid-area
-- gap
-- fr units
-- repeat()
-- auto-fit
-- minmax()
+## How to Run
+Open `gallery.html`, `product-grid.html`, or `dashboard.html` in a web browser.
 
-## Student Details
-Name: Himanshu Yadav
-Course: B.Tech
-Branch: Computer Science
-University: Invertis University
+## Testing Screen Sizes
+- Desktop: 1200px
+- Tablet: 768px
+- Mobile: 375px
 
-## Learning Outcome
-Learned how to create two-dimensional layouts using CSS Grid and how to make responsive layouts.
-
----
-Created as part of MERN Stack Assignment 7.
+## Conclusion
+The website has been updated with responsive CSS to improve its layout and usability across different screen sizes.
